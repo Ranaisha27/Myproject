@@ -1,0 +1,132 @@
+<html>
+
+    <head>
+        <title>Signup</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="row mt-5">
+            <!-- free space -->
+            <div class="col-2"></div>
+            <!-- image -->
+            <div class="col-4">
+                <div class="container img-col p-1">
+                    <div class="container display-1 text-white text-center sayhi bg-danger" style="margin-top:200px; ">EZ MONEY</div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <form action="Signup" class="text-center" name="myForm" onsubmit="return verify()">
+                    <div class="display-2 mb-5 formtext">Signup</div>
+                    <hr/>
+                    
+                    <div class="row mb-4">
+                        
+                        <div class ="col">
+                            <label for="fname" class="h1 formtext-a">First Name</label>
+                            <input type="text" class="w-50 text-center" name="fname" id="fname"> 
+                        </div>
+                        
+                        <div class ="col">
+                            <label for="lname" class="h1 formtext-a">Last Name</label>
+                            <input type="text" class="w-50 text-center"  name="lname" id="lname"> 
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    
+
+                    <div class="form-group">
+                            <label for="username" class="h1 mb-2 formtext-a">Email</label>
+                            <br/>
+                            <input type="text" class="w-50 mx-auto text-center" name="email" id="email">   
+                    </div>
+                    
+                    
+
+                    <div class="form-group">
+                        <label for="password" class="h1 mb-2 formtext-a">Password</label>
+                        <br/>
+                        <input type="password" class="w-50 mx-auto text-center" name="password" id="pass">   
+                    </div>
+                    
+                    
+
+                    <div class="row">
+                        
+                        <div class ="col">
+                            <label for="phone" class="h1 mb-2 formtext-a">Phone</label>
+                            <br/>
+                            <input type="text" class="w-50 text-center" name="phone" id="phone"> 
+                        </div>
+                        
+                        <div class ="col">
+                            <label for="address" class="h1 mb-2 formtext-a">Address</label>
+                            <br/>
+                            <input type="text" class="w-50 text-center"  name="address" id="address"> 
+                            
+                        </div>
+                        
+                    </div>
+
+                    
+                    
+                    <div class="form-group mt-4">
+                        <div class="container">
+                            <button class="butn" type="submit">Signup</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+        <script>
+            
+            function verify(){
+                var x = document.forms["myForm"]["fname"].value;
+                if(x==""){
+                alert("Enter First Name! ");
+                return false;
+                }   
+                
+                var l = document.forms["myForm"]["lname"].value;
+                if(l==""){
+                alert("Enter Last Name! ");
+                return false;
+                } 
+
+                var y = document.forms["myForm"]["pass"].value;
+                if(y==""){
+                alert("Enter Password ");
+                return false;
+                }
+
+                var a = document.forms["myForm"]["phone"].value;
+                if(a==""){
+                alert("Enter Phone Number! ");
+                return false;
+                }
+
+                var b = document.forms["myForm"]["email"].value;
+                if(b==""){
+                alert("Enter Email ");
+                return false;
+                }
+            }
+            
+        </script>
+    </body>
+
+</html>

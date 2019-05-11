@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Anton'); 
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+@import url('https://fonts.googleapis.com/css?family=Metrophobic');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+
+
+.img-text{
+    font-family: 'Tauri', sans-serif;   
+    color: black;
+}
+
+.img-text-sm{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #212f3d ;
+}
+
+.btn-text{
+    font-size: 20px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.how-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.img-col{
+    background-image: url(Images/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 580px;
+    animation:fade 1s;
+}
+
+.formtext{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.sayhi{
+    font-family: 'Anton';
+}
+
+.formtext-a{
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid gainsboro;
+    transition-duration: 0.5s;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+input:focus{
+    border-bottom: 2px solid black;
+    transition-duration: 0.5s;
+}
+
+button{
+    transition-duration: 0.3s;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.butn{
+    border:2px solid  black ;
+    background-color: white;
+    height: 50px;
+    width: 70%;
+    border-radius: 12px;
+    font-family: Raleway;
+}
+
+.butn:hover{
+    color: black;
+    background-color: black;
+    box-shadow: 5px black;
+    color:white;
+}
+
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

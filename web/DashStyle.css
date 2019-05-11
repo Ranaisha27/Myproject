@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Anton'); 
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+@import url('https://fonts.googleapis.com/css?family=Metrophobic');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+
+.brand-text{
+    font-family: Allerta Stencil;
+    font-size: 28px;
+}
+
+.btn-text{
+    font-size: 20px;
+    font-family: Julius Sans One;
+}
+
+.option-text{
+    font-family: Raleway;
+}
+
+.butn{
+    width: 80px;
+    height: 40px;
+}
+
+.img-col{
+    background-image: url(Images/DashBoard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 300px;
+    height: 500px;;
+}
+
+.img-text{
+    font-family: 'Saira Extra Condensed';
+}
+
+input{
+    font-size: 40px;
+}
+
+.th{
+    font-family: 'Metrophobic';
+}
+
+.form-text{
+    font-family: 'Metrophobic';
+}
+
+form{
+    animation: fade 1.5s;
+}
+
+.animate-div{
+    animation: fade 1.5s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
